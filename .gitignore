@@ -1,3 +1,6 @@
+# Ignored the survey netCDF files
+data/*.nc
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

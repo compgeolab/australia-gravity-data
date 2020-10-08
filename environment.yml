@@ -1,0 +1,26 @@
+name: australia-gravity
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - matplotlib
+  - dask
+  - numba
+  - jupyter
+  - jupyterlab
+  - netcdf4
+  - pygmt
+  - pyproj
+  - requests
+  - tqdm
+  # Fatiando
+  - pooch
+  - verde
+  - harmonica
+  - boule

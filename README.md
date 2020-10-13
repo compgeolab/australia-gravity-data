@@ -11,6 +11,11 @@ Geoscience Australia gravity data.
 with a blocked mean. Gravity disturbances were calculated from the 
 compiled dataset.*
 
+**NOTE:** After I did all of this, I discovered
+[GeoscienceAustralia/geophys_utils](https://github.com/GeoscienceAustralia/geophys_utils)
+which would have allowed me to download the individual surveys using a web API from Python.
+This would have saved the work of finding, downloding, and combining the metadata files.
+
 ## Download the data compilation
 
 The data compilation is available for download as a single netCDF file

@@ -3,8 +3,16 @@
 Playing around with downloading, cleaning, and combining all available
 Geoscience Australia gravity data.
 
-> This is based on the compilation by [Wynne (2018)](https://doi.org/10.26186/5c1987fa17078).
-> The data are distributed under a CC-BY 4.0 license (see the source).
+> Based on the compilation by [Wynne (2018)](https://doi.org/10.26186/5c1987fa17078),
+> which is distributed under a CC-BY 4.0 license (see the source).
+
+![Map of the gravity disturbance of Australia from the compiled dataset](australia-ground-gravity.png)
+*Figure: Preview of the compiled gravity observations, downsampled 
+with a blocked mean. Gravity disturbances were calculated from the 
+compiled dataset.*
+
+
+## Metadata and download links
 
 The metadata records (including the download link) for all surveys were
 downloaded manually in batches of 100 (:disappointed:). These records are
@@ -24,7 +32,9 @@ available in the `metadata` folder.
 * [`notebooks/merge.ipynb`](https://nbviewer.jupyter.org/github/compgeolab/australia-gravity-data/blob/main/notebooks/merge.ipynb):
   loads all surveys, selects the more relevant data, filter out unreliable surveys,
   merge them into a single dataset, and standardize the metadata (following CF
-  conventions).
+  conventions). Saves the data compilation to netCDF in `australia-gravity-data.nc`.
+* [`notebooks/explore.ipynb`](https://nbviewer.jupyter.org/github/compgeolab/australia-gravity-data/blob/main/notebooks/explore.ipynb):
+  explore the compiled gravity data using plots and maps.
 
 ## License
 

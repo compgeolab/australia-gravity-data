@@ -1,5 +1,6 @@
 # Ignored the survey netCDF files
 data/*.nc
+australia-ground-gravity.nc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

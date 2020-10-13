@@ -11,12 +11,41 @@ Geoscience Australia gravity data.
 with a blocked mean. Gravity disturbances were calculated from the 
 compiled dataset.*
 
+## Download the data compilation
+
+The data compilation is available for download as a single netCDF file
+from GitHub: https://github.com/compgeolab/australia-gravity-data/releases/latest
+
+You can download and cache the data directly from your Python code using
+[Pooch](https://www.fatiando.org/pooch/latest/):
+
+```python
+import xarray as xr
+import pooch
+
+fname = pooch.retrieve(
+    url="https://github.com/compgeolab/australia-gravity-data/releases/download/v1.0/australia-ground-gravity.nc",
+    known_hash="sha256:50f2fa53c5dc2c66dd3358b8e50024d21074fcc77c96191c549a10a37075bc7e",
+    downloader=pooch.HTTPDownloader(progressbar=True)
+)
+
+# Load the data with xarray
+data = xr.load_dataset(fname)
+```
+
+Paste the code above in your Jupyter notebooks or scripts to let Pooch 
+automatically download the file (printing a progress bar), store it in a cache
+folder, check the download integrity, and return to you the path to the cached
+file. The download only happens the first time this code is run. Afterwards,
+Pooch finds the data in the cache and only returns the link (so you can use
+this code everywhere you need this file).
 
 ## Metadata and download links
 
-The metadata records (including the download link) for all surveys were
-downloaded manually in batches of 100 (:disappointed:). These records are
-available in the `metadata` folder.
+The metadata records (including the download link) for all of the 
+original surveys were downloaded manually in batches of 100 
+(:disappointed:). 
+These records are available in the `metadata` folder.
 
 ## Notebooks
 
@@ -41,5 +70,6 @@ available in the `metadata` folder.
 All source code is made available under a MIT license.
 You can freely use and modify the code, without warranty,
 so long as you provide attribution to the original authors.
-
 See [LICENSE](LICENSE) for the full license text.
+
+The data compilation is distributed under a [CC-BY license](https://creativecommons.org/licenses/by/4.0/).

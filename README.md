@@ -6,6 +6,11 @@ Geoscience Australia gravity data.
 > Based on the compilation by [Wynne (2018)](https://doi.org/10.26186/5c1987fa17078),
 > which is distributed under a CC-BY 4.0 license (see the source).
 
+You can run and explore the code online through [mybinder.org](https://mybinder.org):
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/compgeolab/australia-gravity-data/main)
+
+
 ![Map of the gravity disturbance of Australia from the compiled dataset](australia-ground-gravity.png)
 *Figure: Preview of the compiled gravity observations, downsampled 
 with a blocked mean. Gravity disturbances were calculated from the 

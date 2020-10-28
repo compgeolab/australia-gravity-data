@@ -1,0 +1,24 @@
+# Build Docker images for use in mybinder.org
+#
+# This speeds up the Binder launch by not requiring it to build the Docker
+# containers. Built container images are stored in the compgeolab DockerHub
+# account.
+
+name: binder
+on: push
+
+jobs:
+  build-container:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Build Docker image with repo2docker
+      uses: jupyterhub/repo2docker-action@6a93d1b
+      with:
+        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        BINDER_CACHE: true
+        PUBLIC_REGISTRY_CHECK: true

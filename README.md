@@ -8,7 +8,7 @@ Geoscience Australia gravity data.
 
 You can run and explore the code online through [mybinder.org](https://mybinder.org):
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/compgeolab/australia-gravity-data/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/compgeolab/australia-gravity-data/main?urlpath=lab/tree/notebooks%2Fexplore.ipynb)
 
 
 ![Map of the gravity disturbance of Australia from the compiled dataset](australia-ground-gravity.png)

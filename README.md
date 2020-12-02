@@ -1,7 +1,7 @@
 # Gravity data compilation for Australia
 
-Playing around with downloading, cleaning, and combining all available
-Geoscience Australia gravity data.
+This repository contains code to download, clean, and combine all available
+[Geoscience Australia](http://www.ga.gov.au/) gravity data.
 
 > Based on the compilation by [Wynne (2018)](https://doi.org/10.26186/5c1987fa17078),
 > which is distributed under a CC-BY 4.0 license (see the source).

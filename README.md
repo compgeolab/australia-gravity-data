@@ -24,7 +24,7 @@ This would have saved the work of finding, downloding, and combining the metadat
 ## Download the data compilation
 
 The data compilation is available for download as a single netCDF file
-from GitHub: https://github.com/compgeolab/australia-gravity-data/releases/latest
+from *figshare*: https://doi.org/10.6084/m9.figshare.13643837.v1
 
 You can download and cache the data directly from your Python code using
 [Pooch](https://www.fatiando.org/pooch/latest/):
@@ -34,9 +34,10 @@ import xarray as xr
 import pooch
 
 fname = pooch.retrieve(
-    url="https://github.com/compgeolab/australia-gravity-data/releases/download/v1.0/australia-ground-gravity.nc",
+    url="https://ndownloader.figshare.com/files/26193446",
     known_hash="sha256:50f2fa53c5dc2c66dd3358b8e50024d21074fcc77c96191c549a10a37075bc7e",
-    downloader=pooch.HTTPDownloader(progressbar=True)
+    downloader=pooch.HTTPDownloader(progressbar=True),
+    fname="australia-gravity.nc",
 )
 
 # Load the data with xarray
@@ -49,6 +50,16 @@ folder, check the download integrity, and return to you the path to the cached
 file. The download only happens the first time this code is run. Afterwards,
 Pooch finds the data in the cache and only returns the link (so you can use
 this code everywhere you need this file).
+
+## Citing this compilation
+
+If you use this dataset in a publication, please cite both the original 
+compilation by [Wynne (2018)](https://doi.org/10.26186/5c1987fa17078) and the
+figshare archive of this version:
+
+> Wynne, P. (2018). NetCDF Ground Gravity Point Surveys Collection (Version 1.0). Commonwealth of Australia (Geoscience Australia). https://doi.org/10.26186/5C1987FA17078 
+>
+> Uieda, L. (2021). Ground gravity data compilation for Australia filtered by survey quality and packaged in CF-compliant netCDF [Data set]. figshare. https://doi.org/10.6084/M9.FIGSHARE.13643837.V
 
 ## Metadata and download links
 

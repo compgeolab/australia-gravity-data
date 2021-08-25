@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="205mm"
+   height="70mm"
+   viewBox="0 0 205 70"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="australia-ground-gravity.svg"
+   inkscape:export-filename="australia-ground-gravity.png"
+   inkscape:export-xdpi="362.85715"
+   inkscape:export-ydpi="362.85715"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2489759"
+     inkscape:cx="297.4437"
+     inkscape:cy="140.51512"
+     inkscape:window-width="1632"
+     inkscape:window-height="904"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-22.873455,-32.594776)">
+    <rect
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.301855"
+       id="rect561"
+       width="205"
+       height="70"
+       x="22.873455"
+       y="32.594776" />
+    <g
+       id="g762"
+       transform="matrix(1.3400923,0,0,1.3400923,-27.944782,31.488527)">
+      <image
+         width="49.218655"
+         height="47.922401"
+         preserveAspectRatio="none"
+         xlink:href="australia-ground-gravity-disturbance.png"
+         id="image497"
+         x="39.786991"
+         y="2.9819052" />
+      <image
+         width="49.616045"
+         height="47.922401"
+         preserveAspectRatio="none"
+         xlink:href="australia-ground-gravity-height.png"
+         id="image509"
+         x="89.799385"
+         y="2.9819052" />
+      <image
+         width="49.218655"
+         height="47.922401"
+         preserveAspectRatio="none"
+         xlink:href="australia-ground-gravity-point-density.png"
+         id="image521"
+         x="139.81178"
+         y="2.9819052" />
+    </g>
+  </g>
+</svg>

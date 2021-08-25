@@ -16,13 +16,13 @@ dependencies:
   - jupyter==1.0.0
   - jupyterlab==2.2.8
   - netcdf4==1.5.3
-  - pygmt==0.2.0
-  - gmt==6.1.1
+  - pygmt==0.4.1
+  - gmt==6.2.0
   - pyproj===2.6.1
   - requests==2.24.0
   - tqdm==4.50.1
   # Fatiando
-  - pooch==1.2.0
-  - verde==1.5.0
-  - harmonica==0.1.0
+  - pooch==1.5.0
+  - verde==1.6.0
+  - harmonica==0.2.1
   - boule==0.2.0

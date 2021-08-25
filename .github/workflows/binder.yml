@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build Docker image with repo2docker
-      uses: jupyterhub/repo2docker-action@6a93d1b
+      uses: jupyterhub/repo2docker-action@1001ed9fbf74397f8f5c021afb7b469a02c3a7e6
       with:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}

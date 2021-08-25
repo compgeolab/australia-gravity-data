@@ -10,8 +10,8 @@ You can run and explore the code online through [mybinder.org](https://mybinder.
 
 | Version | Date | DOI |
 |---------|------|-----|
-| [v2.0](https://github.com/compgeolab/australia-gravity-data/releases/tag/v2.0) | 2021-08-24 | 10.6084/m9.figshare.13643837 |
-| [v1.0](https://github.com/compgeolab/australia-gravity-data/releases/tag/v1.0) | 2020-10-28 | 10.6084/m9.figshare.13643837.v1 |
+| [v2.0](https://github.com/compgeolab/australia-gravity-data/releases/tag/v2.0) | 2021-08-24 | doi:[10.6084/m9.figshare.13643837](https://doi.org/10.6084/m9.figshare.13643837) |
+| [v1.0](https://github.com/compgeolab/australia-gravity-data/releases/tag/v1.0) | 2020-10-28 | doi:[10.6084/m9.figshare.13643837.v1](https://doi.org/10.6084/m9.figshare.13643837.v1) |
 
 ## Citing this compilation
 
